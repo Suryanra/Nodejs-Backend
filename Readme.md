@@ -192,5 +192,6 @@ For any issues or contributions, feel free to reach out!
 ![alt text](image-4.png)
 
 ## Contact
-For any issues or contributions, feel free to reach out!
+Email: suryapratapnra@gmail.com
+[Linkedin](https://www.linkedin.com/in/suryanra/)
 
