@@ -175,9 +175,20 @@ You can use tools like Postman or cURL to test the endpoints.
 ---
 ## Images 
 For any issues or contributions, feel free to reach out!
+### Checking API working or not Route
+![alt text](image.png)
 
+### Authenticate API Route
+![alt text](image-1.png)
 
+### enrich API Route
 
+![alt text](image-2.png)
+![alt text](image-3.png)
+
+### Search Name Route
+
+![alt text](image-4.png)
 
 ## Contact
 For any issues or contributions, feel free to reach out!
