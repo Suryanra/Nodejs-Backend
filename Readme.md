@@ -39,15 +39,15 @@ POST /authenticate
 **Request:**
 ```json
 {
-  "email": "user@example.com",
-  "password": "yourpassword"
+  "username":"naval.ravikant" , 
+  "password" : "05111974"
 }
 ```
 
 **Response:**
 ```json
 {
-  "token": "your-jwt-token"
+  "JWT": "your-jwt-token"
 }
 ```
 
@@ -96,16 +96,25 @@ Authorization: Bearer <your-jwt-token>
 
 ---
 
+
 ### 4. Search Applicants
 **Endpoint:**
 ```
-GET /applicant/search?query=<search-term>
+POST /applicant/search
 ```
-**Description:** Searches applicants based on a query (e.g., name, skills, or experience).
+**Description:** Searches applicants based on criteria (e.g., name, skills, or experience).
 
 **Headers:**
 ```
 Authorization: Bearer <your-jwt-token>
+Content-Type: application/json
+```
+
+**Request Body:**
+```json
+{
+  "name": "John Doe"
+}
 ```
 
 **Response:**
@@ -118,6 +127,8 @@ Authorization: Bearer <your-jwt-token>
   }
 ]
 ```
+
+
 
 ---
 
